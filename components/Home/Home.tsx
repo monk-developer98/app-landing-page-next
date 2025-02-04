@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from './Hero/Hero'
 import WhyChoose from './WhyChoose/WhyChoose'
 import AnalyticsFeature from './Analytic/AnalyticsFeature'
+import Feature from './Feature/Feature'
+import Review from './Review/Review'
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
       <Hero />
       <WhyChoose/>
       <AnalyticsFeature/>
+      <Feature/>
+      <Review/>
     </div>
   )
 }
